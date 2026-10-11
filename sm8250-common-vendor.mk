@@ -103,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
-    vendor/motorola/sm8250-common/proprietary/vendor/etc/init/vendor.zui.hardware.ifaa@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.zui.hardware.ifaa@1.0-service.rc \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
@@ -529,7 +528,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.qti.qspmhal@1.0-impl \
-    vendor.zui.hardware.ifaa@1.0 \
     vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDADV_Encoder_so \
     vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDAD_Speech_Decoder_so \
     vendor_lib_rfsa_adsp_libSuperSensor_skel_so \
@@ -577,11 +575,9 @@ PRODUCT_PACKAGES += \
     TimeService \
     com.qualcomm.qti.gpudrivers.kona.api30 \
     uimgbaservice \
-    IfaaService \
     ImsRcsService \
     PowerOffAlarm \
     QtiTelephonyService \
-    SoterService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
@@ -626,7 +622,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.media.c2@1.0-service \
-    vendor.zui.hardware.ifaa@1.0-service \
     ims_rtp_daemon \
     imsdatadaemon \
     imsqmidaemon \
